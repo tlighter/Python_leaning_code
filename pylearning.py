@@ -8,12 +8,3 @@
 #
 #
 # spesum(1,5,6,8,5)
-
-def  finDafodnum():
-    for num in range(100, 1000):
-        while num:
-            z = 0
-            z += num%10
-            num = num //10
-    return z
-print(finDafodnum())
