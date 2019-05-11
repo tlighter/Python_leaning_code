@@ -1,10 +1,45 @@
-# def spesum(*params):
-#     params = reversed(params)
-#     if params[0] == 5:
-#         summ = sum(params)
-#         print(summ*5)
-#     else:
-#         print(summ*3)
-#
-#
-# spesum(1,5,6,8,5)
+a = 100
+b = 12.3456
+c = 1+5j
+d = 'he'
+e = True
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
