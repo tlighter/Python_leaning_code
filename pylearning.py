@@ -1,31 +1,19 @@
-a = 100
-b = 12.3456
-c = 1+5j
-d = 'he'
-e = True
-print(type(a))
-print(type(b))
-print(type(c))
-print(type(d))
-print(type(e))
+from random import randint
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+face = randint(1, 6)
+if face == 1:
+    result = '唱歌'
+elif face == 2:
+    result = '跳个舞'
+elif face == 3:
+    result = '学狗叫'
+elif face == 4:
+    result = '做俯卧撑'
+elif face == 5:
+    result = '念绕口令'
+else:
+    result = '讲笑话'
+print(result)
 
 
 
