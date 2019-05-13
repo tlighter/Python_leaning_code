@@ -1,33 +1,13 @@
-from random import randint
+def Narci():
+    for each in range(100, 1000):
+        temp = each
+        summ = 0
+        while temp:
+            summ = summ + (temp % 10) ** 3
+            temp = temp // 10
 
-face = randint(1, 6)
-if face == 1:
-    result = '唱歌'
-elif face == 2:
-    result = '跳个舞'
-elif face == 3:
-    result = '学狗叫'
-elif face == 4:
-    result = '做俯卧撑'
-elif face == 5:
-    result = '念绕口令'
-else:
-    result = '讲笑话'
-print(result)
+        if  summ == each:
+            print(each, end='\t')
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Narci()
